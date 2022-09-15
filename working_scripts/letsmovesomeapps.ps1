@@ -25,7 +25,7 @@ write-host "Temporary destination path for exporting sites is on your Desktop =>
 		write-host "Folder already exists `n`n" -ForegroundColor Green
 		}
 
-write-host "Here you can find list of all IIS apps available on this machine `n"
+write-host "Here you can find list of all IIS apps available on this machine `n "
 Get-website
 
 do {
